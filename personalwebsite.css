@@ -4,6 +4,17 @@ body
  display:flex;
 }
 
+@media(max-width:1000px)
+{
+ body
+ {
+ background-color: rgb(74, 186, 149);
+ display:flex;
+ flex-direction: column;
+ }
+
+}
+
 a{
     text-decoration: none;
     color:rgb(58, 51, 51);
