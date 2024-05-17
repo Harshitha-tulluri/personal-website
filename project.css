@@ -26,13 +26,31 @@ button{
     height:20%;
     width:20%;
     border-color:rgb(42, 188, 183);
+    color:rgb(245, 243, 248) ;
+
 }
 
 a{
     text-decoration: none;
-    color:rgb(245, 243, 248) ;
 }
 
 p{
     color: rgb(36, 33, 33);
+}
+
+.br{
+    height:40px;
+    width:100%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.res{
+    height:30px;
+    width: 100px;
+    background-color: rgb(21, 215, 215);
+    border-radius: 5px;
+    border-color: aqua;
+    margin-right: 50px;
+    margin-top: 30px;
 }
